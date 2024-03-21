@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Shopping cart</title>
+</head>
+<body>
+
+    <section>
+        <main>
+            <div class="container title">
+                <h1>
+                    Shopping Cart
+                </h1>
+                <p>
+                    <span id="counter">
+                        Counter
+                    </span>
+                    items
+                </p>
+            </div>
+            <hr>
+            <div class="container">
+                <div class="item">
+                    <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-shopping-carts/img7.webp" alt="" srcset="">
+                    <div class="item_info">
+                        <h3 class="category">
+                            Shirt
+                        </h3>
+                        <h4 class="item_title">
+                            Cotton T-shirt
+                        </h4>
+                    </div>
+                    <div class="item_quantity">
+                        <button class="minus" style="background-image: url(./assets/minus_10336561.png);" ></button>
+                        <input class="in" type="text" value="0">
+                        <button class="plus" style="background-image: url(./assets/plus_1828817.png);" ></button>
+                    </div>
+
+                    <div class="price_total_per_item">
+                        $ 20.00
+                    </div>
+                    <div class="delete">
+                        <button class="delete" style="background-image: url(./assets/delete_10336803.png);" ></button>
+                    </div>
+                </div>
+                <hr>
+                <hr>
+            <div class="container">
+                <div class="item">
+                    <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-shopping-carts/img6.webp" alt="" srcset="">
+                    <div class="item_info">
+                        <h3 class="category">
+                            Shirt
+                        </h3>
+                        <h4 class="item_title">
+                            Cotton T-shirt
+                        </h4>
+                    </div>
+                    <div class="item_quantity">
+                        <button class="minus" style="background-image: url(./assets/minus_10336561.png);" ></button>
+                        <input class="in" type="text" value="0">
+                        <button class="plus" style="background-image: url(./assets/plus_1828817.png);" ></button>
+                    </div>
+
+                    <div class="price_total_per_item">
+                        $ 40.00
+                    </div>
+                    <div class="delete">
+                        <button class="delete" style="background-image: url(./assets/delete_10336803.png);" ></button>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <hr>
+            <div class="container">
+                <div class="item">
+                    <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-shopping-carts/img5.webp" alt="" srcset="">
+                    <div class="item_info">
+                        <h3 class="category">
+                            Shirt
+                        </h3>
+                        <h4 class="item_title">
+                            Cotton T-shirt
+                        </h4>
+                    </div>
+                    <div class="item_quantity">
+                        <button class="minus" style="background-image: url(./assets/minus_10336561.png);" ></button>
+                        <input class="in" type="text" value="0">
+                        <button class="plus" style="background-image: url(./assets/plus_1828817.png);" ></button>
+                    </div>
+
+                    <div class="price_total_per_item">
+                        $ 44.00
+                    </div>
+                    <div class="delete">
+                        <button class="delete" style="background-image: url(./assets/delete_10336803.png);" ></button>
+                    </div>                
+                </div>
+                <hr>
+            </div>
+            </div>
+
+        </main>
+   
+        <div>
+            <h2>
+                Summary
+            </h2>
+            <hr>
+            <div class="items_price_count">
+                <p>
+                    ITEMS
+                    <span class="counter">
+                        Counter
+                    </span>
+                </p>
+                <p class="price_total">
+                    $ 120.00
+                </p>
+            </div>
+            <h3>
+                Shipping
+            </h3>
+            <select name="shipping_methode" id="shipping_methode">
+                <option value="free">Free Shipping</option>
+                <option value="Standard">Standard 5$</option>
+            </select>
+            <h3>
+                Give Code
+            </h3>
+            <input type="text" name="coupon" id="coupon">
+            <hr>
+            <div class="price_total_final">
+                <h3>
+                    Total Price
+                </h3>
+
+                <h3>
+                    $ <span class="total_price_final">
+                        137
+                    </span>
+                </h3>
+            </div>
+            <button>
+                Register
+            </button>
+        </div>
+    </section>
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
