@@ -120,3 +120,8 @@ button.delete {
     background-repeat: no-repeat;
     cursor: pointer;
 }
+
+
+.hide {
+    display: none;
+}
